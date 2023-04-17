@@ -1,0 +1,54 @@
+1. mpm run dev vs npm start
+2. {quickLinks.map((menu,index)=>(
+    <span key={index} className="text-[#70757a] text-[12px] md:text-[14px] leading-none p-[10px] md:p-[15px]">
+        {menu}
+    </span>
+))}     vs {quickLinks.map((menu,index)=>{
+    <span key={index} className="text-[#70757a] text-[12px] md:text-[14px] leading-none p-[10px] md:p-[15px]">
+        {menu}
+    </span>
+})}   why first one working but not second one
+
+The first code snippet is using parentheses () to enclose the function body, which is a shorthand syntax for an implicit return. This means that the function will automatically return the value of the expression inside the parentheses.
+
+On the other hand, the second code snippet is using curly braces {} to enclose the function body. This syntax requires an explicit return statement to return a value from the function.
+
+Therefore, in the second code snippet, the function body is not returning anything explicitly, which means that it will return undefined. As a result, nothing will be rendered in the JSX.
+
+To fix the issue, you can add a return statement inside the function body in the second code snippet:
+
+less
+Copy code
+{quickLinks.map((menu,index)=>{
+    return (
+        <span key={index} className="text-[#70757a] text-[12px] md:text-[14px] leading-none p-[10px] md:p-[15px]">
+            {menu}
+        </span>
+    );
+})}
+Alternatively, you can use the shorthand syntax with parentheses to implicitly return the JSX:
+
+javascript
+Copy code
+{quickLinks.map((menu,index)=>(
+    <span key={index} className="text-[#70757a] text-[12px] md:text-[14px] leading-none p-[10px] md:p-[15px]">
+        {menu}
+    </span>
+))}
+Both of these approaches should work correctly.
+
+
+
+
+aman.12012087@lpu.in
+is this property of reactjs or it also works in js
+
+The shorthand syntax for an implicit return using parentheses () is a feature of JavaScript, not specifically React. It's a relatively new syntax that was introduced in ECMAScript 6 (ES6) and is commonly used in modern JavaScript development.
+
+However, the use of this syntax in the context of React components is specific to React. In a React component, the curly braces {} are used to evaluate JavaScript expressions within JSX, while parentheses () are used to enclose JSX expressions that should be implicitly returned from a function.
+
+So while the shorthand syntax for an implicit return using parentheses is a general JavaScript feature, its specific usage within the context of React components is unique to React.
+
+3. 
+AIzaSyBJSvTRijH9hQcrE6-J0AAzrlfVH9eWml4
+e13f22fc22c074a54
