@@ -1,4 +1,4 @@
-1. mpm run dev vs npm start
+1. npm run dev vs npm start
 2. {quickLinks.map((menu,index)=>(
     <span key={index} className="text-[#70757a] text-[12px] md:text-[14px] leading-none p-[10px] md:p-[15px]">
         {menu}
