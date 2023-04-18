@@ -52,3 +52,30 @@ So while the shorthand syntax for an implicit return using parentheses is a gene
 3. 
 AIzaSyBJSvTRijH9hQcrE6-J0AAzrlfVH9eWml4
 e13f22fc22c074a54
+
+AIzaSyA7zL9dm7h1a6rz1MyfVlxrIbzER4oHfYo
+624fbd30d39ce4608
+
+https://developers.google.com/custom-search/v1/introduction
+
+4.  have a built a clone of google in my frontend project  using reactjs and tailwind css and api write a presentation on this project which i can present in my class how should i prsent it good
+
+Congratulations on building a clone of Google using ReactJS and Tailwind CSS! Here are some tips on how to give a good presentation on your project:
+
+Introduction: Begin your presentation by introducing yourself and giving an overview of the project. Talk about what inspired you to build a clone of Google and how you went about doing it.
+
+Problem Statement: Explain the problem you were trying to solve or the goal you were trying to achieve with this project. For example, you may have wanted to improve your web development skills or create a more user-friendly search engine.
+
+Technologies Used: Give a brief overview of the technologies you used to build the project, such as ReactJS and Tailwind CSS. You can also talk about any other tools or libraries that you used.
+
+Project Features: Demonstrate the various features of your Google clone. Show how users can enter search queries, view search results, and navigate through the site. Highlight any additional features that you added to your project.
+
+Project Architecture: Discuss the overall architecture of your project. Explain how the front-end and back-end components work together, and how data is stored and retrieved.
+
+Challenges Faced: Talk about any challenges you faced while building the project, such as technical issues or design problems. Explain how you overcame these challenges and what you learned from the experience.
+
+Future Improvements: Discuss any potential improvements or enhancements you could make to the project in the future. This could include adding new features, improving performance, or making the user interface more intuitive.
+
+Conclusion: Finally, summarize your presentation by highlighting the key points and achievements of your project. You can also encourage your classmates to try out your Google clone and provide feedback.
+
+Remember to keep your presentation concise and engaging. Use visuals, such as screenshots or live demos, to demonstrate the various features of your project. Good luck with your presentation!
