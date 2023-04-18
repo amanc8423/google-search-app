@@ -79,3 +79,7 @@ Future Improvements: Discuss any potential improvements or enhancements you coul
 Conclusion: Finally, summarize your presentation by highlighting the key points and achievements of your project. You can also encourage your classmates to try out your Google clone and provide feedback.
 
 Remember to keep your presentation concise and engaging. Use visuals, such as screenshots or live demos, to demonstrate the various features of your project. Good luck with your presentation!
+
+
+
+//   https://search-app-google.netlify.app/
